@@ -1,3 +1,3 @@
 # Java Documentation
 
-A introduction to Java.
+An introduction to Java.
