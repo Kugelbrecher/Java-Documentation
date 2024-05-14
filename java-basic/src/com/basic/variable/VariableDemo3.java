@@ -37,7 +37,7 @@ public class VariableDemo3 {
         System.out.println(rs); // 11
         System.out.println(i); // 11
         int i2 = 10;
-        int rs2 = i++; // assign first then add
+        int rs2 = i2++; // assign first then add
         System.out.println(rs2); // 11
         System.out.println(i2); // 10
 
