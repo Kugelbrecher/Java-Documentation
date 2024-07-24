@@ -15,3 +15,11 @@ public class Student {
         System.out.println(name + "'s average score: " + average);
     }
 }
+
+// we can have multiple classes in one file, but only one public class
+//     and the public class should have the same name as the file
+class Car {
+    String brand;
+    String color;
+    int price;
+}
