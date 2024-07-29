@@ -1,4 +1,4 @@
-package com.application;
+package com.basicdemo;
 
 import java.util.Scanner;
 import java.util.Random;

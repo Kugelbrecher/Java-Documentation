@@ -1,4 +1,4 @@
-package com.application;
+package com.basicdemo;
 
 public class FindPrimeNumber {
     public static void main(String[] args) {

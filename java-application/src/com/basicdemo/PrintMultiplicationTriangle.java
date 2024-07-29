@@ -1,4 +1,4 @@
-package com.application;
+package com.basicdemo;
 
 public class PrintMultiplicationTriangle {
     public static void main(String[] args) {
