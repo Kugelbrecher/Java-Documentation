@@ -5,7 +5,14 @@ package com.string;
 // String object is immutable, once created, cannot be modified
 // any modification will create a new object, so the reference will change and the old object will be garbage collected
 
-// a double quote string is stored in string pool, if the same string is created again, it will refer to the same object in the pool
+// a double quote string:
+//      is stored in string pool (pool is in heap memory),
+//      if the same string is created again, it will refer to the same object in the pool
+
+// a new keyword string:
+//      creates two objects, one in heap memory and one in string pool,
+//      if the same string is created again, it will refer to a new object in heap memory
+
 public class string {
     public static void main(String[] args) {
         // 1. direct assignment
